@@ -11,7 +11,6 @@ app.get('/',(req,res) => res.send('Hello World'))
 app.listen(port, () => console.log(`Offline Journal listening on ${port}`))
 
 function noCacheHeaders(res, path, stat) {
-  console.log('set headers')
   res.set({
     'Cache-Control': 'no-cache, no-store, must-revalidate',
     'Pragma': 'no-cache',
