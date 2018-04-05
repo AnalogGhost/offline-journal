@@ -4,6 +4,7 @@
   "description": "Used to demonstrate offline web application functionality. This simple journal will work both online and offline.",
   "main": "index.js",
   "scripts": {
+    "start": "node ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ghost-/offline-journal/issues"
   },
-  "homepage": "https://github.com/ghost-/offline-journal#readme"
+  "homepage": "https://github.com/ghost-/offline-journal#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
